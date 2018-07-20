@@ -1,0 +1,34 @@
+package unicodeTech.Module1;
+
+import org.openqa.selenium.By;
+import org.testng.SkipException;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import unicodeTech.Utility.MyMethods;
+
+public class ValidateUser extends ChildModule1{
+
+	@BeforeTest
+	public void checkTestCase() {
+		
+		boolean result = MyMethods.checkTestCaseExecutionMode(module1, "TestCase", "ValidateUser");
+		
+		if(!result) {
+			
+			throw new SkipException("Execution mode of the Module1 test suite is set to NO");
+			
+		}
+	}
+	
+	@Test
+	public void testValidateUser() throws InterruptedException {
+		
+		driver.get(storage.getProperty("url"));
+		MyMethods.signIN("demo@unicodetechnologies.in", "unicode");
+		Thread.sleep(2000);
+		MyMethods.signOUT();
+		
+		
+	}	
+}

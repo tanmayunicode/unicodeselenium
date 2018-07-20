@@ -1,0 +1,24 @@
+package unicodeTech.BasePackage;
+
+import org.openqa.selenium.WebDriver;
+
+/*
+1. Initialize and load properties file
+2. Launch Browser
+3. Refrence of WebDriver
+4. Maximize browser window
+5. Define Timeout
+6. Define logs
+7. Initialize XLS objects
+8. Create verifyElement method
+*/
+
+public class BaseInit {
+
+	public static WebDriver driver = null;
+
+	public void startUP() {
+		
+		//WebDriver driver = new FirefoxDriver();
+	}
+}

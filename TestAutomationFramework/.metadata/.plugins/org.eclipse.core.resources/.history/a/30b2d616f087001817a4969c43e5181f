@@ -1,0 +1,7 @@
+package unicodeTech.Module2;
+
+import unicodeTech.BasePackage.BaseInit;
+
+public class ChildModule2 extends BaseInit{
+
+}

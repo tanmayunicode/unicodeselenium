@@ -1,0 +1,13 @@
+#URL, Browser and Locator Information
+
+url=http://localhost/gadgetsgallery/catalog/
+browser=firefox
+
+lnk_logurselfin_linkText=log yourself in
+
+ip_email_name=email_address
+ip_pwd_name=password
+btn_signIn_id=tdb1
+
+btn_logoff_xpath=//*[@id='top_menu']/span[6]/a
+btn_continue_logoff_xpath=//*[@id="tdb1"]

@@ -1,0 +1,16 @@
+<suite name="Module 2">
+<test name="Bestsellert Link Test">
+<classes>
+<class name="unicodeTech.Module2.BestsellerLinks"></class>
+</classes>
+
+</test>
+
+<test name="ManufacturerSelection">
+<classes>
+<class name="unicodeTech.Module2.ManufacturerSelection"></class>
+</classes>
+
+</test>
+
+</suite>

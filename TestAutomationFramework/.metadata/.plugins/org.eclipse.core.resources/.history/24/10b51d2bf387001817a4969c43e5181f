@@ -1,0 +1,16 @@
+<suite name="Module 1">
+<test name="Validate User Test">
+<classes>
+<class name="unicodeTech.Module1.ValidateUser"></class>
+</classes>
+
+</test>
+
+<test name="Serch Test">
+<classes>
+<class name="unicodeTech.Module1.SearchTest"></class>
+</classes>
+
+</test>
+
+</suite>

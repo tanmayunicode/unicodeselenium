@@ -1,0 +1,9 @@
+package unicodeTech.BasePackage;
+
+public class BaseInit {
+
+	public void startUP() {
+		
+		
+	}
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Module 2" duration-ms="18150" started-at="2018-07-20T10:46:30Z" finished-at="2018-07-20T10:46:48Z">
+    <groups>
+    </groups>
+    <test name="Bestsellert Link Test" duration-ms="14992" started-at="2018-07-20T10:46:30Z" finished-at="2018-07-20T10:46:45Z">
+      <class name="unicodeTech.Module2.BestsellerLinks">
+        <test-method status="PASS" signature="checkTestCase()[pri:0, instance:unicodeTech.Module2.BestsellerLinks@1fbc7afb]" name="checkTestCase" is-config="true" duration-ms="1" started-at="2018-07-20T16:16:30Z" finished-at="2018-07-20T16:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method status="PASS" signature="testBestsellerLinks()[pri:0, instance:unicodeTech.Module2.BestsellerLinks@1fbc7afb]" name="testBestsellerLinks" duration-ms="14991" started-at="2018-07-20T16:16:30Z" finished-at="2018-07-20T16:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBestsellerLinks -->
+      </class> <!-- unicodeTech.Module2.BestsellerLinks -->
+    </test> <!-- Bestsellert Link Test -->
+    <test name="ManufacturerSelection" duration-ms="3154" started-at="2018-07-20T10:46:45Z" finished-at="2018-07-20T10:46:48Z">
+      <class name="unicodeTech.Module2.ManufacturerSelection">
+        <test-method status="PASS" signature="checkTestSuite()[pri:0, instance:unicodeTech.Module2.ManufacturerSelection@2ff4f00f]" name="checkTestSuite" is-config="true" duration-ms="2" started-at="2018-07-20T16:16:30Z" finished-at="2018-07-20T16:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSuite -->
+        <test-method status="PASS" signature="checkTestCase()[pri:0, instance:unicodeTech.Module2.ManufacturerSelection@2ff4f00f]" name="checkTestCase" is-config="true" duration-ms="1" started-at="2018-07-20T16:16:45Z" finished-at="2018-07-20T16:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method status="PASS" signature="testManufacturerSelection()[pri:0, instance:unicodeTech.Module2.ManufacturerSelection@2ff4f00f]" name="testManufacturerSelection" duration-ms="3153" started-at="2018-07-20T16:16:45Z" finished-at="2018-07-20T16:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testManufacturerSelection -->
+      </class> <!-- unicodeTech.Module2.ManufacturerSelection -->
+    </test> <!-- ManufacturerSelection -->
+  </suite> <!-- Module 2 -->
+  <suite name="Module 1" duration-ms="20853" started-at="2018-07-20T10:46:09Z" finished-at="2018-07-20T10:46:30Z">
+    <groups>
+    </groups>
+    <test name="Validate User Test" duration-ms="15894" started-at="2018-07-20T10:46:09Z" finished-at="2018-07-20T10:46:25Z">
+      <class name="unicodeTech.Module1.ValidateUser">
+        <test-method status="PASS" signature="checkTestCase()[pri:0, instance:unicodeTech.Module1.ValidateUser@33a10788]" name="checkTestCase" is-config="true" duration-ms="2" started-at="2018-07-20T16:16:09Z" finished-at="2018-07-20T16:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method status="PASS" signature="testValidateUser(java.lang.String, java.lang.String)[pri:0, instance:unicodeTech.Module1.ValidateUser@33a10788]" name="testValidateUser" duration-ms="5634" started-at="2018-07-20T16:16:09Z" data-provider="getTestDataFromXLS" finished-at="2018-07-20T16:16:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo@unicodetechnologies.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[unicode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUser -->
+        <test-method status="PASS" signature="testValidateUser(java.lang.String, java.lang.String)[pri:0, instance:unicodeTech.Module1.ValidateUser@33a10788]" name="testValidateUser" duration-ms="4747" started-at="2018-07-20T16:16:15Z" data-provider="getTestDataFromXLS" finished-at="2018-07-20T16:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo1@unicodetechnologies.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[unicode1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUser -->
+        <test-method status="PASS" signature="testValidateUser(java.lang.String, java.lang.String)[pri:0, instance:unicodeTech.Module1.ValidateUser@33a10788]" name="testValidateUser" duration-ms="5500" started-at="2018-07-20T16:16:20Z" data-provider="getTestDataFromXLS" finished-at="2018-07-20T16:16:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo2@unicodetechnologies.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[unicode2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUser -->
+      </class> <!-- unicodeTech.Module1.ValidateUser -->
+    </test> <!-- Validate User Test -->
+    <test name="Serch Test" duration-ms="4933" started-at="2018-07-20T10:46:25Z" finished-at="2018-07-20T10:46:30Z">
+      <class name="unicodeTech.Module1.SearchTest">
+        <test-method status="PASS" signature="checkTestSuite()[pri:0, instance:unicodeTech.Module1.SearchTest@3c5a99da]" name="checkTestSuite" is-config="true" duration-ms="5037" started-at="2018-07-20T16:16:04Z" finished-at="2018-07-20T16:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSuite -->
+        <test-method status="PASS" signature="checkTestCase()[pri:0, instance:unicodeTech.Module1.SearchTest@3c5a99da]" name="checkTestCase" is-config="true" duration-ms="1" started-at="2018-07-20T16:16:25Z" finished-at="2018-07-20T16:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method status="PASS" signature="testValidateUser()[pri:0, instance:unicodeTech.Module1.SearchTest@3c5a99da]" name="testValidateUser" duration-ms="4931" started-at="2018-07-20T16:16:25Z" finished-at="2018-07-20T16:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUser -->
+      </class> <!-- unicodeTech.Module1.SearchTest -->
+    </test> <!-- Serch Test -->
+  </suite> <!-- Module 1 -->
+  <suite name="FinalRelease-ProjectName-15072018" duration-ms="0" started-at="2018-07-20T10:46:49Z" finished-at="2018-07-20T10:46:49Z">
+    <groups>
+    </groups>
+  </suite> <!-- FinalRelease-ProjectName-15072018 -->
+</testng-results>

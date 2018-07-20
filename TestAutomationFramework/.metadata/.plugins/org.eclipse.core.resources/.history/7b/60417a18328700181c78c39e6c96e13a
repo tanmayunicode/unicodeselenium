@@ -1,0 +1,14 @@
+package unicodeTech.Module2;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class ManufacturerSelection extends ChildModule2{
+
+	public void testManufacturerSelection() {
+		
+		driver.get(storage.getProperty("url"));
+		WebElement bestsellers = driver.findElement(By.name("manufacturers_id"));
+
+	}
+}

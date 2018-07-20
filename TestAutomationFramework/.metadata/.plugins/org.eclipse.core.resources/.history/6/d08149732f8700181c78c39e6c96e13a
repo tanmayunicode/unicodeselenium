@@ -1,0 +1,18 @@
+package unicodeTech.Utility;
+
+import unicodeTech.BasePackage.BaseInit;
+
+public class MyMethods extends BaseInit {
+
+	public static void signIN(String username, String password) {
+
+	}
+
+	public static void signOUT() {
+
+	}
+
+	public static void searchProduct(String keyword) {
+
+	}
+}

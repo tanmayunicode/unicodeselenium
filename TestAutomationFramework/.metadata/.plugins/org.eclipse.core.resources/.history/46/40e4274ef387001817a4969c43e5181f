@@ -1,0 +1,8 @@
+<suite name="">
+<suite-files>
+<suite-file path="./"></suite-file>
+<suite-file path="./"></suite-file>
+<suite-file path="./"></suite-file>
+</suite-files>
+
+</suite>

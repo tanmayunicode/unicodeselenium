@@ -1,0 +1,15 @@
+package unicodeTech.Module1;
+
+import org.openqa.selenium.By;
+
+import unicodeTech.Utility.MyMethods;
+
+public class ValidateUser extends ChildModule1{
+
+	public void testValidateUser() {
+		
+		driver.get(storage.getProperty("url"));
+		MyMethods.signIN("demo@unicodetechnologies.in", "unicode");
+		
+	}	
+}

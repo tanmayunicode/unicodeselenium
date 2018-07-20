@@ -1,0 +1,26 @@
+package unicodeTech.Utility;
+
+import unicodeTech.BasePackage.BaseInit;
+
+public class MyMethods extends BaseInit {
+
+	public static void signIN(String username, String password) {
+
+		verifyElement("lnk_logurselfin_linkText").click();
+		verifyElement("ip_email_name").sendKeys(username);
+		verifyElement("ip_pwd_name").sendKeys(password);
+		verifyElement("btn_signIn_id").click();
+
+	}
+
+	public static void signOUT() {
+		
+		verifyElement("").click();
+		verifyElement("").click();
+
+	}
+
+	public static void searchProduct(String keyword) {
+
+	}
+}

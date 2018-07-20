@@ -1,0 +1,13 @@
+package unicodeTech.BasePackage;
+
+import org.openqa.selenium.WebDriver;
+
+public class BaseInit {
+
+	WebDriver driver = null;
+
+	public void startUP() {
+		
+		//WebDriver driver = new FirefoxDriver();
+	}
+}

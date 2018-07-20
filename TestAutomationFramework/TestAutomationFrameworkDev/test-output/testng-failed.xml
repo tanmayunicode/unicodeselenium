@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Module 1]">
+  <test name="Validate User Test(failed)">
+    <classes>
+      <class name="unicodeTech.Module1.ValidateUser">
+        <methods>
+          <include name="testValidateUser" invocation-numbers="0 1 2"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- unicodeTech.Module1.ValidateUser -->
+      <class name="unicodeTech.Module1.SearchTest">
+        <methods>
+          <include name="checkTestSuite"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- unicodeTech.Module1.SearchTest -->
+    </classes>
+  </test> <!-- Validate User Test(failed) -->
+  <test name="Serch Test(failed)">
+    <classes>
+      <class name="unicodeTech.Module1.ValidateUser">
+        <methods>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- unicodeTech.Module1.ValidateUser -->
+      <class name="unicodeTech.Module1.SearchTest">
+        <methods>
+          <include name="testValidateUser"/>
+          <include name="checkTestSuite"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- unicodeTech.Module1.SearchTest -->
+    </classes>
+  </test> <!-- Serch Test(failed) -->
+</suite> <!-- Failed suite [Module 1] -->

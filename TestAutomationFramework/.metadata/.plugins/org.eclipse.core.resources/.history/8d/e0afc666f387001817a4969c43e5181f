@@ -1,0 +1,8 @@
+<suite name="FinalRelease-ProjectName-15072018">
+<suite-files>
+<suite-file path="./Module1.xml"></suite-file>
+<suite-file path="./Module2.xml"></suite-file>
+<suite-file path="./"></suite-file>
+</suite-files>
+
+</suite>

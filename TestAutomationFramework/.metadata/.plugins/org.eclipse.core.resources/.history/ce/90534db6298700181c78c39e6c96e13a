@@ -1,0 +1,35 @@
+package unicodeTech.BasePackage;
+
+import java.util.Properties;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+
+import com.unicodetechnologies.xlsConnectivity.XLSDatatable_Connectivity;
+
+/*
+1. Initialize and load properties file
+2. Launch Browser
+3. Refrence of WebDriver
+4. Maximize browser window
+5. Define Timeout
+6. Define logs
+7. Initialize XLS objects
+8. Create verifyElement method
+*/
+
+public class BaseInit {
+
+	public static WebDriver driver = null;
+	public static Properties storage = null;
+	public static Logger logs = null;
+	public static XLSDatatable_Connectivity suite = null;
+	public static XLSDatatable_Connectivity module1 = null;
+	public static XLSDatatable_Connectivity module2 = null;
+
+
+	public void startUP() {
+		
+		//WebDriver driver = new FirefoxDriver();
+	}
+}

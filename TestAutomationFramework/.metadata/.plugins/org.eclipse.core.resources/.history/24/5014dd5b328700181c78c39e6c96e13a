@@ -1,0 +1,18 @@
+package unicodeTech.Module2;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class ManufacturerSelection extends ChildModule2{
+
+	public void testManufacturerSelection() {
+		
+		driver.get(storage.getProperty("url"));
+		WebElement manufacturers = driver.findElement(By.name("manufacturers_id"));
+		List<WebElement> manuValues = manufacturers.findElements(By.tagName("option"));
+		
+		
+	}
+}

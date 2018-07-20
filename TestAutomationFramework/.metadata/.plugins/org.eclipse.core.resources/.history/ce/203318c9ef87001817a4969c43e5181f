@@ -1,0 +1,14 @@
+package unicodeTech.Module1;
+
+import org.testng.annotations.BeforeSuite;
+
+import unicodeTech.BasePackage.BaseInit;
+
+public class ChildModule1 extends BaseInit{
+
+	@BeforeSuite
+	public void checkTestSuite() {
+		
+		
+	}
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Module 2]">
+  <test name="Bestsellert Link Test(failed)">
+    <classes>
+      <class name="unicodeTech.Module2.BestsellerLinks">
+        <methods>
+          <include name="testBestsellerLinks"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- unicodeTech.Module2.BestsellerLinks -->
+      <class name="unicodeTech.Module2.ManufacturerSelection">
+        <methods>
+          <include name="checkTestSuite"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- unicodeTech.Module2.ManufacturerSelection -->
+    </classes>
+  </test> <!-- Bestsellert Link Test(failed) -->
+  <test name="ManufacturerSelection(failed)">
+    <classes>
+      <class name="unicodeTech.Module2.BestsellerLinks">
+        <methods>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- unicodeTech.Module2.BestsellerLinks -->
+      <class name="unicodeTech.Module2.ManufacturerSelection">
+        <methods>
+          <include name="checkTestSuite"/>
+          <include name="testManufacturerSelection"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- unicodeTech.Module2.ManufacturerSelection -->
+    </classes>
+  </test> <!-- ManufacturerSelection(failed) -->
+</suite> <!-- Failed suite [Module 2] -->

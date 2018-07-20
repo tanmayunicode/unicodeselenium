@@ -1,0 +1,40 @@
+package unicodeTech.Utility;
+
+import org.openqa.selenium.Keys;
+
+import com.unicodetechnologies.xlsConnectivity.XLSDatatable_Connectivity;
+
+import unicodeTech.BasePackage.BaseInit;
+
+public class MyMethods extends BaseInit {
+
+	public static void signIN(String username, String password) {
+
+		verifyElement("lnk_logurselfin_linkText").click();
+		verifyElement("ip_email_name").sendKeys(username);
+		verifyElement("ip_pwd_name").sendKeys(password);
+		verifyElement("btn_signIn_id").click();
+
+	}
+
+	public static void signOUT() {
+		
+		verifyElement("btn_logoff_xpath").click();
+		verifyElement("btn_continue_logoff_id").click();
+
+	}
+
+	public static void searchProduct(String keyword) {
+
+		verifyElement("ip_findKeyword_name").sendKeys(keyword);
+		verifyElement("ip_findKeyword_name").sendKeys(Keys.ENTER);
+		
+		checkTestSuiteExecutionMode(suite, "TestSuite", "Module2");
+		
+	}
+	
+	public static void checkTestSuiteExecutionMode(XLSDatatable_Connectivity data, String sheetName, String testSuiteID) {
+		
+		
+	}
+}

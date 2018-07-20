@@ -1,0 +1,16 @@
+package unicodeTech.Module2;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class BestsellerLinks extends ChildModule2{
+
+	public void testBestsellerLinks() {
+		
+		driver.get(storage.getProperty("url"));
+		
+		WebElement bestsellers = driver.findElement(By.xpath("//*[@id='right_sidebar']/div[2]/div[2]/ol"));
+		
+		
+	}
+}

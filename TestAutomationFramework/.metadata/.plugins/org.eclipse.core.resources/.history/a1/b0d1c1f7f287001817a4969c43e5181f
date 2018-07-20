@@ -1,0 +1,9 @@
+<suite name="Module 1">
+<test name="Validate User Test">
+<classes>
+<class name=""></class>
+</classes>
+
+</test>
+
+</suite>
